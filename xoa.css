@@ -1,0 +1,15 @@
+.gridContainer{
+    background-color: blue;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    padding: 10px;
+    /* grid-gap: 5px; */
+     grid-row-gap: 30px; /*khoảng cách hàng */
+    grid-column-gap: 10px; /*khoảng cách cột */
+}
+.gridItem{
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px;
+}
